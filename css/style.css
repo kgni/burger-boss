@@ -74,7 +74,7 @@ a:active {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 18rem;
+	margin-bottom: 10rem;
 }
 
 .left-nav {
@@ -129,7 +129,7 @@ nav i {
 }
 
 h1 {
-	font-size: 15.4rem;
+	font-size: 12rem;
 	text-transform: uppercase;
 	font-weight: 900;
 	color: #fffff2;
@@ -137,13 +137,13 @@ h1 {
 }
 
 .big-title {
-	font-size: 28.5rem;
+	font-size: 25.5rem;
 	text-shadow: -20px -6px 4px rgba(0, 0, 0, 0.25);
 	color: #ff9f1c;
 }
 
 .hero-text h3 {
-	font-size: 3.6rem;
+	font-size: 3.2rem;
 	color: #ff1b1c;
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	font-family: Pacifico;
