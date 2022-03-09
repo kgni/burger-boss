@@ -209,11 +209,14 @@ h4 {
 
 .card img {
 	position: absolute;
-	top: 10%;
+	top: 15%;
 }
 
-.card:nth-last-of-type(2) img {
+.card:nth-of-type(2) img {
 	top: 0;
+}
+.card:nth-of-type(3) img {
+	top: 10%;
 }
 
 .card:nth-of-type(2) {
@@ -293,13 +296,56 @@ h4 {
 
 /* about */
 
+.section-about,
+.top-section,
+.bottom-section {
+	padding: 0;
+}
+
 .section-about {
 	background-color: #07402a;
 }
 
 .top-section {
-	height: 50%;
+	display: flex;
+	height: 50vh;
+}
+
+.about-text-container {
+	padding: 3.4rem 6.8rem;
+	width: 50%;
+}
+.about-img-container-top {
+	width: 50%;
+	height: 100%;
+	background-image: url('/img/about1.jpg');
+	background-size: cover;
+	background-position: 0%;
 }
 .bottom-section {
-	height: 50%;
+	display: flex;
+	height: 50vh;
+	background-color: #622c2c;
+}
+
+.about-img-container-bot {
+	width: 50%;
+	height: 100%;
+	background-image: url('/img/about2.jpg');
+	background-size: cover;
+	background-position: 0 72%;
+}
+
+.about-text-container h3 {
+	font-family: Pacifico;
+	font-size: 7.2rem;
+	text-shadow: -7px 0px 0px rgba(0, 0, 0, 0.25);
+	margin-bottom: 4.8rem;
+}
+
+.about-text-container p {
+	line-height: 1.5;
+	margin-bottom: 2.4rem;
+	font-weight: 500;
+	font-size: 1.8rem;
 }
