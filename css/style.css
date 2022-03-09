@@ -22,11 +22,11 @@ img {
 
 .container {
 	width: 90%;
-	padding-top: 4rem;
 	margin: 0 auto;
 }
 section {
 	height: 100vh;
+	padding: 6.8rem 0;
 }
 
 a:link,
@@ -62,6 +62,10 @@ a:active {
 
 /* Hero Img */
 
+.hero {
+	padding: 4rem 0;
+}
+
 .hero-img {
 	position: absolute;
 	left: 38%;
@@ -74,7 +78,7 @@ a:active {
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
-	margin-bottom: 10rem;
+	margin-bottom: 6rem;
 }
 
 .left-nav {
@@ -137,7 +141,7 @@ h1 {
 }
 
 .big-title {
-	font-size: 25.5rem;
+	font-size: 27.5rem;
 	text-shadow: -20px -6px 4px rgba(0, 0, 0, 0.25);
 	color: #ff9f1c;
 }
@@ -155,4 +159,147 @@ h1 {
 
 .section-order {
 	background-color: #ff9f1c;
+}
+
+.section-order h2 {
+	font-size: 12rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	color: #07402a;
+	letter-spacing: 4px;
+	text-shadow: -6px 0px 0px #f6e7cb, -12px 0px 0px #db573b,
+		-15px -1px 0px rgba(0, 0, 0, 0.25);
+	text-decoration: underline;
+	margin-bottom: 6.8rem;
+}
+
+h4 {
+	text-align: center;
+	font-family: 'Pacifico', cursive;
+	color: #000;
+	font-size: 3.2rem;
+	margin-bottom: 4.8rem;
+}
+
+/* cards */
+
+.cards-container {
+	width: 55%;
+	margin: 0 auto;
+	display: flex;
+	justify-content: center;
+	gap: 1.2rem;
+}
+
+.card {
+	padding: 3.2rem 2.4rem;
+	width: 33.333%;
+	background-color: #07402a;
+	border-radius: 10px;
+	box-shadow: -5px 12px 10px rgba(0, 0, 0, 0.25);
+	border-radius: 21px;
+	height: 500px;
+	display: flex;
+	flex-direction: column;
+	justify-content: flex-end;
+	position: relative;
+	margin-bottom: 3.2rem;
+}
+
+.card img {
+	position: absolute;
+	top: 10%;
+}
+
+.card:nth-last-of-type(2) img {
+	top: 0;
+}
+
+.card:nth-of-type(2) {
+	background-color: #0a0f1b;
+}
+.card:nth-of-type(3) {
+	background-color: #622c2c;
+}
+
+.card-line {
+	height: 3px;
+	width: 80%;
+	margin: 0 auto;
+	background-color: #ff9f1c;
+	margin-bottom: 4.8rem;
+}
+
+.price-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 2.4rem;
+}
+
+.item-button {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.price {
+	font-size: 2rem;
+	font-weight: 300;
+	font-family: 'Roboto', sans-serif;
+}
+
+.price-info i {
+	font-size: 2rem;
+	cursor: pointer;
+}
+
+.item-button p {
+	font-size: 1.8rem;
+	font-weight: 700;
+	line-height: 1.2;
+}
+
+.card-btn:link,
+.card-btn:visited {
+	align-self: flex-end;
+	font-size: 1.4rem;
+	background-color: #db573b;
+	padding: 1.2rem 3.2rem;
+	border-radius: 4px;
+	font-weight: 500;
+}
+
+.show-more {
+	display: flex;
+	justify-content: center;
+	color: #07402a;
+	font-family: 'Pacifico', cursive;
+	align-items: center;
+	flex-direction: column;
+}
+.show-more a:link {
+	color: #07402a;
+	font-family: 'Pacifico', cursive;
+}
+
+.underline {
+	margin-top: 0.4rem;
+	background-color: #07402a;
+	height: 3px;
+	width: 150px;
+}
+
+/* about */
+
+.section-about {
+	background-color: #07402a;
+}
+
+.top-section {
+	height: 50%;
+}
+.bottom-section {
+	height: 50%;
 }
