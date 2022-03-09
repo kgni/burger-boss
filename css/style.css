@@ -11,6 +11,148 @@ html {
 body {
 	font-family: 'Pacifico', cursive;
 	font-family: 'Inter', sans-serif;
+	color: #fffff2;
+}
+
+img {
+	max-width: 100%;
 }
 
 /* GENERAL STYLES */
+
+.container {
+	width: 90%;
+	padding-top: 4rem;
+	margin: 0 auto;
+}
+section {
+	height: 100vh;
+}
+
+a:link,
+a:visited {
+	color: #fffff2;
+	text-decoration: none;
+	font-weight: 900;
+	font-size: 2.4rem;
+}
+
+a:hover,
+a:active {
+	color: #fffff2;
+}
+
+.break {
+	display: block;
+}
+
+/* HERO */
+
+.hero {
+	background: linear-gradient(
+		to right,
+		#07402a 0%,
+		#07402a 50%,
+		#622c2c 50%,
+		#622c2c 100%
+	);
+	position: relative;
+	overflow: hidden;
+}
+
+/* Hero Img */
+
+.hero-img {
+	position: absolute;
+	left: 38%;
+	bottom: -33.5%;
+	width: 55%;
+}
+/* nav */
+
+.main-nav {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-bottom: 18rem;
+}
+
+.left-nav {
+	display: flex;
+	gap: 8rem;
+	align-items: center;
+}
+
+.main-nav ul {
+	display: flex;
+	gap: 2.4rem;
+	text-shadow: -3px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.right-nav {
+	display: flex;
+	align-items: center;
+	gap: 4.8rem;
+}
+
+.logo {
+	font-size: 3.2rem;
+	text-transform: uppercase;
+	text-align: center;
+	line-height: 1.2;
+	font-weight: 900;
+	text-shadow: -6px 3px 2px rgba(0, 0, 0, 0.25);
+}
+
+.logo p:last-child {
+	color: #ff1b1c;
+}
+
+nav .btn:link {
+	background-color: #ff1b1c;
+	padding: 1.2rem 2rem;
+	text-transform: uppercase;
+	border-radius: 6px;
+	font-size: 1.8rem;
+}
+
+nav i {
+	font-size: 2.4rem;
+	cursor: pointer;
+}
+
+/* hero text */
+
+.hero-container {
+	width: 75%;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 15.4rem;
+	text-transform: uppercase;
+	font-weight: 900;
+	color: #fffff2;
+	text-shadow: -12px -1px 4px rgba(0, 0, 0, 0.25);
+}
+
+.big-title {
+	font-size: 28.5rem;
+	text-shadow: -20px -6px 4px rgba(0, 0, 0, 0.25);
+	color: #ff9f1c;
+}
+
+.hero-text h3 {
+	font-size: 3.6rem;
+	color: #ff1b1c;
+	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+	font-family: Pacifico;
+	margin-top: 2.4rem;
+	padding-left: 8rem;
+}
+
+/* order */
+
+.section-order {
+	background-color: #ff9f1c;
+}
