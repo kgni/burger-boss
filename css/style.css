@@ -312,7 +312,7 @@ h4 {
 }
 
 .about-text-container {
-	padding: 3.4rem 6.8rem;
+	padding: 6.8rem;
 	width: 50%;
 }
 .about-img-container-top {
@@ -348,4 +348,91 @@ h4 {
 	margin-bottom: 2.4rem;
 	font-weight: 400;
 	font-size: 1.6rem;
+}
+
+/* CONTACT */
+
+.section-contact {
+	background-color: #db573b;
+	height: 95vh;
+}
+
+.section-contact h2 {
+	font-size: 12rem;
+	font-weight: 900;
+	text-transform: uppercase;
+	text-align: center;
+	color: #622c2c;
+	letter-spacing: 4px;
+	text-shadow: -6px 0px 0px #f6e7cb, -12px 0px 0px #ff9f1c,
+		-15px -1px 0px rgba(0, 0, 0, 0.25);
+	text-decoration: underline;
+	margin-bottom: 6rem;
+}
+
+form {
+	width: 30%;
+	margin: 0 auto;
+	margin-bottom: 4.8rem;
+}
+
+input {
+	border: none;
+	padding: 1.2rem;
+}
+
+.top-row-inputs {
+	margin-bottom: 1.2rem;
+	display: flex;
+	gap: 1.2rem;
+}
+
+.top-row-inputs input {
+	width: 50%;
+}
+textarea {
+	margin-bottom: 1.6rem;
+	width: 100%;
+	font-family: 'Inter';
+	font-size: 1.4rem;
+	resize: vertical;
+	height: 20vh;
+	padding: 1.2rem;
+}
+
+.form-btn {
+	width: 100%;
+	text-transform: uppercase;
+	background-color: #07402a;
+	font-weight: 700;
+	font-size: 1.6rem;
+	color: #fff;
+	cursor: pointer;
+}
+
+.social-media {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 2.4rem;
+}
+
+/* .facebook i {
+	color: #3b5998;
+}
+.twitter i {
+	color: #24a4f2;
+}
+.mail i {
+	color: ;
+} */
+/* footer */
+
+footer {
+	height: 5vh;
+	background-color: #0a0f1b;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	font-size: 1.2rem;
 }
