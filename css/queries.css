@@ -308,6 +308,6 @@
 		height: 250px;
 		transform: rotate(0deg);
 		z-index: -1;
-		object-fit: cover;
+		/* object-fit: cover; */
 	}
 }
