@@ -25,7 +25,7 @@ img {
 	margin: 0 auto;
 }
 section {
-	height: 100vh;
+	min-height: 100%;
 	padding: 6.8rem 0;
 }
 
@@ -68,9 +68,9 @@ a:active {
 
 .hero-img {
 	position: absolute;
-	left: 38%;
-	bottom: -33.5%;
-	width: 55%;
+	left: 60%;
+	bottom: -10%;
+	width: 50rem;
 }
 /* nav */
 
@@ -109,11 +109,15 @@ a:active {
 }
 
 .logo p:last-child {
-	color: #ff1b1c;
+	color: rgb(236, 64, 29);
+}
+
+nav .btn {
+	cursor: pointer;
 }
 
 nav .btn:link {
-	background-color: #ff1b1c;
+	background-color: rgb(236, 64, 29);
 	padding: 1.2rem 2rem;
 	text-transform: uppercase;
 	border-radius: 6px;
@@ -138,6 +142,7 @@ h1 {
 	font-weight: 900;
 	color: #fffff2;
 	text-shadow: -12px -1px 4px rgba(0, 0, 0, 0.25);
+	line-height: 1;
 }
 
 .big-title {
@@ -148,7 +153,7 @@ h1 {
 
 .hero-text h3 {
 	font-size: 3.2rem;
-	color: #ff1b1c;
+	color: rgb(236, 64, 29);
 	text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 	font-family: Pacifico;
 	margin-top: 2.4rem;
@@ -185,38 +190,24 @@ h4 {
 /* cards */
 
 .cards-container {
-	width: 55%;
-	margin: 0 auto;
 	display: flex;
 	justify-content: center;
-	gap: 1.2rem;
+	gap: 2.4rem;
+	margin-bottom: 4.8rem;
 }
 
 .card {
 	padding: 3.2rem 2.4rem;
-	width: 33.333%;
 	background-color: #07402a;
 	border-radius: 10px;
 	box-shadow: -5px 12px 10px rgba(0, 0, 0, 0.25);
 	border-radius: 21px;
-	height: 500px;
 	display: flex;
+	width: 400px;
 	flex-direction: column;
 	justify-content: flex-end;
 	position: relative;
 	margin-bottom: 3.2rem;
-}
-
-.card img {
-	position: absolute;
-	top: 15%;
-}
-
-.card:nth-of-type(2) img {
-	top: 0;
-}
-.card:nth-of-type(3) img {
-	top: 10%;
 }
 
 .card:nth-of-type(2) {
@@ -224,6 +215,14 @@ h4 {
 }
 .card:nth-of-type(3) {
 	background-color: #622c2c;
+}
+
+.card-img-container {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 4.8rem;
+}
+.card img {
 }
 
 .card-line {
@@ -281,6 +280,11 @@ h4 {
 	font-family: 'Pacifico', cursive;
 	align-items: center;
 	flex-direction: column;
+}
+
+.show-more img {
+	display: inline;
+	margin-left: 1.2rem;
 }
 .show-more a:link {
 	color: #07402a;
@@ -354,7 +358,6 @@ h4 {
 
 .section-contact {
 	background-color: #db573b;
-	height: 95vh;
 }
 
 .section-contact h2 {
@@ -396,7 +399,7 @@ textarea {
 	font-family: 'Inter';
 	font-size: 1.4rem;
 	resize: vertical;
-	height: 20vh;
+	height: 20em;
 	padding: 1.2rem;
 }
 
