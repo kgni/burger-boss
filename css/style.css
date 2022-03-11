@@ -72,6 +72,10 @@ a:active {
 	bottom: -10%;
 	width: 50rem;
 }
+
+.hero-img-sideways {
+	display: none;
+}
 /* nav */
 
 .main-nav {
@@ -164,6 +168,7 @@ h1 {
 
 .section-order {
 	background-color: #ff9f1c;
+	padding: 6.8rem 3.2rem;
 }
 
 .section-order h2 {
@@ -193,7 +198,7 @@ h4 {
 	display: flex;
 	justify-content: center;
 	gap: 2.4rem;
-	margin-bottom: 4.8rem;
+	margin-bottom: 2.4rem;
 }
 
 .card {
@@ -300,60 +305,45 @@ h4 {
 
 /* about */
 
-.section-about,
-.top-section,
-.bottom-section {
-	padding: 0;
-}
-
 .section-about {
 	background-color: #07402a;
 }
 
-.top-section {
-	display: flex;
-	height: 50vh;
-}
-
-.about-text-container {
-	padding: 6.8rem;
-	width: 50%;
-}
-.about-img-container-top {
-	width: 50%;
-	height: 100%;
-	background-image: url('/img/about1.jpg');
-	background-size: cover;
-	background-position: 0%;
-}
-.bottom-section {
-	display: flex;
-	height: 50vh;
+.about-items:nth-of-type(2) {
 	background-color: #622c2c;
 }
 
-.about-img-container-bot {
+.section-about,
+.about-items {
+	padding: 0;
+	margin: 0;
+}
+
+.about-items {
+	display: flex;
+	height: 50vh;
+}
+.about-items > * {
 	width: 50%;
-	height: 100%;
-	background-image: url('/img/about2.jpg');
-	background-size: cover;
-	background-position: 0 72%;
+	object-fit: cover;
 }
 
+.about-items:nth-of-type(2) img {
+	object-position: 100px 70%;
+}
+
+.about-text-container {
+	padding: 3.2rem 6.4rem;
+}
 .about-text-container h3 {
-	font-family: Pacifico;
 	font-size: 6.8rem;
-	text-shadow: -7px 0px 0px rgba(0, 0, 0, 0.25);
-	margin-bottom: 4.8rem;
-}
-
-.about-text-container p {
-	line-height: 1.5;
+	font-family: 'Pacifico', cursive;
 	margin-bottom: 2.4rem;
-	font-weight: 400;
-	font-size: 1.6rem;
 }
-
+.about-text-container p {
+	font-size: 1.8rem;
+	line-height: 1.5;
+}
 /* CONTACT */
 
 .section-contact {
@@ -374,7 +364,7 @@ h4 {
 }
 
 form {
-	width: 30%;
+	width: 60rem;
 	margin: 0 auto;
 	margin-bottom: 4.8rem;
 }
