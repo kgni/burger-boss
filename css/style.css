@@ -321,7 +321,7 @@ h4 {
 
 .about-items {
 	display: flex;
-	height: 50vh;
+	height: 70vh;
 }
 .about-items > * {
 	width: 50%;
@@ -343,6 +343,7 @@ h4 {
 .about-text-container p {
 	font-size: 1.8rem;
 	line-height: 1.5;
+	margin-bottom: 1.6rem;
 }
 /* CONTACT */
 
