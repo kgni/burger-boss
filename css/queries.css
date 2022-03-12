@@ -340,7 +340,7 @@
 	.hero-img-sideways {
 		position: absolute;
 		bottom: 250px;
-		left: 0px;
+		left: 40px;
 		min-width: 700px;
 		width: 700px;
 
@@ -395,7 +395,7 @@
 
 	.hero-img-sideways {
 		position: absolute;
-		bottom: 250px;
+		bottom: 26%;
 		left: 60px;
 		min-width: 500px;
 		width: 500px;
@@ -446,8 +446,8 @@
 
 	.hero-img-sideways {
 		position: absolute;
-		bottom: 25%;
-		left: 60px;
+		bottom: 24%;
+		left: 30px;
 		min-width: 500px;
 		width: 500px;
 
@@ -512,7 +512,7 @@
 	.hero-img-sideways {
 		position: absolute;
 		bottom: 23%;
-		left: 60px;
+		left: 25px;
 		min-width: 500px;
 		width: 500px;
 
